@@ -1,0 +1,32 @@
+.feedback {
+  min-height: 920px;
+  margin-bottom: 26px;
+  &__container {
+    display: flex;
+    margin-top: 60px;
+  }
+  img {
+    width: 169px;
+    height: 169px;
+  }
+  &__info {
+    margin-left: 59px;
+    padding-right: 60px;
+  }
+  &__subtitle {
+    color: #0d0d0d;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  &__count {
+    color: #646464;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  &__descr {
+    color: #0d0d0d;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+  }
+}
